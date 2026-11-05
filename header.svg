@@ -1,117 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 160" width="100%" height="160" fill="none">
   <defs>
-    <!-- Dark Background Gradient -->
-    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070a12" />
-      <stop offset="50%" stop-color="#0b1120" />
-      <stop offset="100%" stop-color="#050811" />
-    </linearGradient>
-
-    <!-- Glowing Accent Gradient -->
-    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#c084fc" />
-    </linearGradient>
-
-    <!-- Subdued Border Gradient -->
-    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
-      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.4" />
-    </linearGradient>
-
-    <!-- Radial Glows -->
-    <radialGradient id="glow-left" cx="20%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#070a12" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="glow-right" cx="85%" cy="30%" r="50%">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#050811" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Dot Matrix Pattern -->
-    <pattern id="dot-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.4" />
-    </pattern>
-
     <style>
-      @keyframes pulse {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.4; transform: scale(1.3); }
+      .name-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        fill: #f0f6fc;
+        letter-spacing: -0.5px;
       }
-      .ping-dot {
-        transform-origin: 52px 42px;
-        animation: pulse 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      .kicker-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        fill: #58a6ff;
+        letter-spacing: 1.5px;
       }
-      .mono-text {
-        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace;
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        fill: #8b949e;
       }
-      .sans-text {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Plus Jakarta Sans', Roboto, Helvetica, Arial, sans-serif;
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        fill: #c9d1d9;
       }
     </style>
   </defs>
 
-  <!-- Card Frame -->
-  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#bg-grad)" />
-  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#glow-left)" />
-  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#glow-right)" />
-  <rect x="2" y="2" width="896" height="236" rx="16" fill="url(#dot-grid)" />
-  <rect x="2" y="2" width="896" height="236" rx="16" stroke="url(#border-grad)" stroke-width="1.5" />
+  <!-- Frame Background (GitHub Surface Dark) -->
+  <rect x="1" y="1" width="848" height="158" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
 
-  <!-- Top Status Bar -->
-  <g transform="translate(36, 30)">
-    <!-- Status Pill -->
-    <rect x="0" y="0" width="186" height="24" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
-    <!-- Glowing green radar dot -->
-    <circle cx="16" cy="12" r="4.5" fill="#10b981" />
-    <circle class="ping-dot" cx="16" cy="12" r="7" stroke="#10b981" stroke-width="1.2" fill="none" opacity="0.6" />
-    <text x="30" y="15.5" class="mono-text" font-size="10.5" font-weight="600" fill="#94a3b8" letter-spacing="0.8">SYSTEM STATUS: ONLINE</text>
+  <!-- Accent Indicator Line -->
+  <rect x="28" y="28" width="3" height="42" rx="1.5" fill="#58a6ff" />
 
-    <!-- Right-aligned System Meta -->
-    <text x="828" y="15" text-anchor="end" class="mono-text" font-size="10.5" fill="#64748b" letter-spacing="0.5">UOS // COMP_ENG // 25°18'N 55°25'E</text>
-  </g>
-
-  <!-- Main Headline Identity -->
-  <g transform="translate(36, 115)">
-    <!-- Kicker -->
-    <text x="0" y="-12" class="mono-text" font-size="12" font-weight="600" fill="#38bdf8" letter-spacing="2.5">◈ AI SYSTEMS &amp; FULL-STACK ARCHITECTURE</text>
+  <!-- Typography Block -->
+  <g transform="translate(42, 28)">
+    <!-- Small Overline -->
+    <text x="0" y="10" class="kicker-text">COMPUTER ENGINEERING • UNIVERSITY OF SHARJAH</text>
     
-    <!-- Display Name -->
-    <text x="0" y="32" class="sans-text" font-size="44" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
-      YASSIN RAGAB
-    </text>
-    <!-- Gradient Ghost Highlight -->
-    <text x="320" y="32" class="sans-text" font-size="44" font-weight="800" fill="url(#text-grad)" letter-spacing="-0.5">
-      / yvs1n
-    </text>
+    <!-- Full Name -->
+    <text x="0" y="38" class="name-text">Yassin Mohamed Ragab</text>
   </g>
 
-  <!-- Tagline / Descriptor -->
-  <g transform="translate(36, 185)">
-    <text x="0" y="0" class="sans-text" font-size="14.5" fill="#94a3b8">
-      Engineering high-leverage software architectures, intelligent agents &amp; kinetic interfaces.
-    </text>
+  <!-- Subtitle Line -->
+  <g transform="translate(42, 92)">
+    <text x="0" y="0" class="sub-text">Full-Stack Developer  •  Former Head Boy  •  Academic Mentor  •  Aspiring AI Engineer</text>
   </g>
 
-  <!-- Bottom Metric Badges Row -->
-  <g transform="translate(36, 205)">
-    <!-- Badge 1: Scholar -->
-    <rect x="0" y="0" width="138" height="20" rx="4" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
-    <text x="8" y="13.5" class="mono-text" font-size="9.5" fill="#e2e8f0">🎓 Echelon Scholar</text>
+  <!-- Clean Credential Badges Row (No Emojis, No Glows) -->
+  <g transform="translate(42, 114)">
+    <!-- Badge 1: Location -->
+    <rect x="0" y="0" width="100" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="50" y="15" text-anchor="middle" class="tag-text">Sharjah, UAE</text>
 
-    <!-- Badge 2: Digital Reach -->
-    <rect x="146" y="0" width="132" height="20" rx="4" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
-    <text x="154" y="13.5" class="mono-text" font-size="9.5" fill="#38bdf8">⚡ 500K+ View Reach</text>
+    <!-- Badge 2: Community Reach -->
+    <rect x="108" y="0" width="155" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="185" y="15" text-anchor="middle" class="tag-text">500K+ Community Reach</text>
 
-    <!-- Badge 3: Former Head Boy -->
-    <rect x="286" y="0" width="144" height="20" rx="4" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
-    <text x="294" y="13.5" class="mono-text" font-size="9.5" fill="#818cf8">🏛️ Former Head Boy</text>
+    <!-- Badge 3: Academic Honors -->
+    <rect x="271" y="0" width="180" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="361" y="15" text-anchor="middle" class="tag-text">A* Math • 8 A*/A IGCSE</text>
 
-    <!-- Badge 4: First-Principles -->
-    <rect x="438" y="0" width="158" height="20" rx="4" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="0.8"/>
-    <text x="446" y="13.5" class="mono-text" font-size="9.5" fill="#cbd5e1">🧠 First-Principles Builder</text>
+    <!-- Badge 4: TA -->
+    <rect x="459" y="0" width="145" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="531" y="15" text-anchor="middle" class="tag-text">Pearson Edexcel TA</text>
+
+    <!-- Badge 5: Former Head Boy -->
+    <rect x="612" y="0" width="140" height="22" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="682" y="15" text-anchor="middle" class="tag-text">Former Head Boy</text>
   </g>
 </svg>

@@ -1,183 +1,167 @@
 <div align="center">
 
-  <!-- Custom Sleek SVG Header -->
-  <img src="./header.svg" width="100%" alt="Yassin Ragab Banner" />
+  <!-- Clean Editorial Header -->
+  <img src="./header.svg" width="100%" alt="Yassin Mohamed Ragab" />
 
-  <br/>
-  <br/>
+  <br/><br/>
 
-  <!-- Status Badges -->
+  <!-- Verified Badges -->
   <a href="https://github.com/yvs1n">
-    <img src="https://komarev.com/ghpvc/?username=yvs1n&color=2563eb&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=yvs1n&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
   </a>
   <a href="https://github.com/yvs1n?tab=followers">
-    <img src="https://img.shields.io/github/followers/yvs1n?label=Followers&style=flat-square&color=818cf8" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/followers/yvs1n?label=Followers&style=social" alt="Followers" />
   </a>
   <a href="https://github.com/yvs1n?tab=repositories">
-    <img src="https://img.shields.io/github/stars/yvs1n?affiliations=OWNER%2CCOLLABORATOR&style=flat-square&color=38bdf8" alt="Stars" />
+    <img src="https://img.shields.io/github/stars/yvs1n?affiliations=OWNER%2CCOLLABORATOR&style=social" alt="Stars" />
   </a>
   <a href="https://yassinr.me">
-    <img src="https://img.shields.io/badge/Website-yassinr.me-0f172a?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Website-yassinr.me-1f2937?style=flat&logo=googlechrome&logoColor=white" alt="Website" />
   </a>
-  <a href="https://www.linkedin.com/in/yassinr">
-    <img src="https://img.shields.io/badge/LinkedIn-Yassin%20Ragab-0077b5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://linkedin.com/in/yassinr">
+    <img src="https://img.shields.io/badge/LinkedIn-yassinr-0077b5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://yassinr.me/cv.pdf">
+    <img src="https://img.shields.io/badge/CV-Download_PDF-ea4335?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Download CV" />
   </a>
 
 </div>
 
-<br/>
+---
 
 ### 👋 Hey, I’m Yassin
 
-I am a Computer Engineering freshman at the **University of Sharjah**, an **Echelon Scholar**, and a builder passionate about intelligent systems and high-leverage software.
+I am a Computer Engineering freshman at the **University of Sharjah**, a full-stack developer, former Head Boy at GEMS Westminster School RAK, and an academic mentor.
 
-My approach to engineering is grounded in first principles: I deconstruct complex, high-friction problems into base components, design scalable architectures, and build fast, resilient software that acts as a cognitive force-multiplier.
-
-Whether engineering full-stack platforms, developing real-time WebSocket state engines, automating university workflows, or mentoring 1,000+ students across Advanced Mathematics and Physics — I bridge academic depth with practical shipping.
+Most of my work sits at the intersection of full-stack web development, workflow automation, and educational tooling. Whether designing platforms that simplify learning for thousands of students, engineering real-time WebSocket session apps, building custom automation pipelines, or coaching students through advanced mathematics and physics — I care about building tools that solve real everyday friction points.
 
 ---
 
-## ⚡ At a Glance
+## ⚡ Profile & Highlights
 
-| Metric / Honor | Context |
+| Area | Details |
 | :--- | :--- |
-| **500,000+** | Cumulative digital reach across educational and tech initiatives |
-| **1,000+** | Students mentored across Pearson Edexcel A-Level Statistics 1 & AS Physics |
-| **Echelon Scholar** | Academic Merit Scholarship recipient at University of Sharjah |
-| **Former Head Boy** | Student body leader at GEMS Westminster School RAK • 8 A*/A Honors (A* Math) |
-| **National Finalist** | Finalist at CodeX UAE National Web Creation Competition |
+| **Education** | B.Sc. in Computer Engineering, University of Sharjah (2026 – 2030) |
+| **Academic Record** | **A\* in A-Level Mathematics** • **8 A\*/A Honors** in IGCSEs (Math, Physics, Chemistry, ICT) |
+| **Leadership** | Former **Head Boy** & Deputy Head Boy, Ruby House Captain, Senior Prefect at GEMS WSR |
+| **Digital Reach** | Scaled senior student channels to **500,000+ views**, 20k+ visits, and 9.8k+ likes |
+| **Academic Mentoring** | Pearson Edexcel Teaching Assistant in Statistics 1 & Physics AS/IGCSE (100+ students) |
+| **Public Address** | Addressed the First International Forum for Arabic Students on stage before UAE leadership & Ruler of Sharjah |
+| **National Recognition** | Finalist in CodeX UAE National Web Creation Competition • Candidate for GEMS Awards |
 
 ---
 
-## 📊 Activity & Streak
-
-<div align="center">
-  <a href="https://github.com/yvs1n">
-    <img src="https://streak-stats.demolab.com?user=yvs1n&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="95%" />
-  </a>
-</div>
-
-> *Contributions and streak are tracked live by GitHub.*
-
----
-
-## 🚀 What I’ve Built & Engineered
+## 🚀 Projects & Shipped Systems
 
 ### 🧠 [Elementa](https://elementaa.vercel.app/)
-An interactive educational platform designed to turn fragmented curriculum study into structured, measurable progress.
-- **Architecture:** Client-side modular architecture with persistent session tracking and walkthrough video engines
-- **Stack:** JavaScript (ES6+), Modern Vanilla CSS, Vercel
+A full-stack educational platform built to bring clarity and structure to curriculum study with persistent progress tracking and video walkthroughs.
+- **Focus:** Structured revision, low-friction modular course navigation, and responsive mobile-first UI  
+- **Stack:** JavaScript (ES6+), Modern CSS Architecture, Vercel  
 - **Links:** [Live Platform](https://elementaa.vercel.app/) • [Source Code](https://github.com/yvs1n/elementa)
 
 ---
 
 ### 📚 [British Curriculum 101 (BC101)](https://bc101.pages.dev/)
-A centralized academic resource hub engineered for British Curriculum students (IGCSE & A-Levels), featuring an integrated in-browser study summarizer.
-- **Problem Solved:** Eradicated the friction of hunting across scattered syllabi, past papers, and examiner reports
-- **Feature Highlight:** Built-in client summarizer to condense heavy syllabus sections during crunch exam periods
-- **Reach:** Scaled to thousands of student visits across the UAE and GCC
-- **Links:** [Live Directory](https://bc101.pages.dev/) • [Source Code](https://github.com/yvs1n/bc101)
-
----
-
-### ⚡ [Blackboarder & Academic Automation Suite](https://github.com/yvs1n/blackboarder-extension)
-Custom developer extensions and batch automation pipelines designed to streamline university LMS workflows.
-- **Tools:** [Blackboarder Extension](https://github.com/yvs1n/blackboarder-extension) & [Blackboard Downloader](https://github.com/yvs1n/blackboard_downloader)
-- **Focus:** Eliminating multi-step manual click sequences, injecting clean UI enhancements, and batch-downloading course resources
-- **Philosophy:** *If a daily workflow repeats three times with manual friction, write code to eliminate it permanently*
-
----
-
-### 🕹️ [Spy Game Companion](https://spy-game-0pla.onrender.com/)
-A real-time multiplayer companion application with zero-latency synchronized rooms for social deduction gameplay.
-- **Architecture:** Node.js, Express, Socket.io (WebSockets) for real-time room matchmaking and distributed game state broadcasting
-- **Deployment:** Render cloud container runtime with live reconnect handling
-- **Links:** [Live App](https://spy-game-0pla.onrender.com/) • [Source Code](https://github.com/yvs1n/spygame)
+An interactive academic resource hub engineered for British Curriculum students (IGCSE & A-Levels), featuring an integrated in-browser study summarizer.
+- **Problem:** Eliminates the friction of finding past papers, syllabus specifications, and examiner notes across fragmented portals  
+- **Feature:** Client-side document summarizer to condense large revision packets during exam crunches  
+- **Reach:** Used by thousands of students across the UAE and GCC  
+- **Links:** [Live Hub](https://bc101.pages.dev/) • [Source Code](https://github.com/yvs1n/bc101)
 
 ---
 
 ### 🌐 [TranZ — CodeX UAE](https://tranz.pages.dev/)
-National school-level web development competition finalist platform engineered with high-contrast kinetic layout principles.
-- **Recognition:** Finalist at CodeX UAE national competition
+Finalist platform in the CodeX UAE national school-level web creation competition, built around high-contrast typography and fluid layouts.
+- **Recognition:** National competition finalist  
 - **Links:** [Live Demo](https://tranz.pages.dev/) • [Source Code](https://github.com/yvs1n/tranz)
 
 ---
 
-## 🏆 Achievements & Leadership
-
-- 🎓 **Echelon Scholars Merit Scholarship (2026)** — Awarded competitive academic scholarship at University of Sharjah for academic distinction and leadership promise.
-- 🎤 **State-Level Arabic Public Address (2025)** — Presented keynote review on stage at the First International Forum for Arabic Students before UAE leadership & H.H. the Ruler of Sharjah.
-- 🏆 **Finalist — CodeX UAE National Web Creation Competition** — Recognized across UAE institutions for high-caliber web development and accessibility.
-- 👨‍🏫 **Teacher Assistant (Statistics 1 & Physics AS)** — Facilitated structured exam methodology sessions and mentored over 1,000 Pearson Edexcel students.
-- 🏛️ **Former Head Boy & Ruby House Captain** — Led the student body at GEMS Westminster School RAK; spearheaded inter-school events, spelling bees, and academic support programs.
-- ✍️ **Creative Writing Honorable Mention** — National writing honor awarded by Emirates Literature Foundation (2024).
-- 🎖️ **Academic Honors** — A* in A-Level Mathematics, 8 A*/A IGCSE Honors (Math, Physics, Chemistry, ICT).
+### 🚀 [SSFIM Platform](https://ssfim.pages.dev/)
+Interactive digital platform for a space settlement architectural framework.
+- **Executive Presentation:** Presented directly to Ranju Anand, Senior Vice President of Education at GEMS Education (2023)  
+- **Links:** [Live Site](https://ssfim.pages.dev/)
 
 ---
 
-## 🧰 Tech Stack
-
-> *"Pragmatic, durable, and first-principles driven. I choose the best tool for the performance and architecture demands of the system."*
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,ts,c,react,threejs,nodejs,express,firebase,tailwind,git,linux,vite" alt="Tech Stack Icons" />
-  </a>
-</div>
-
-<br/>
-
-- **Languages:** Python, JavaScript (ES6+), TypeScript, C / C++, HTML5, Modern CSS3
-- **Frontend & Interaction:** React, Three.js & WebGL, GSAP (ScrollTrigger / Kinetic UI), Tailwind CSS
-- **Backend & Real-Time:** Node.js, Express, Socket.io (WebSockets), RESTful APIs
-- **AI & Cloud Infrastructure:** Google Gemini API, Cloud Firestore, Firebase, Serverless (Vercel, Cloudflare Pages, Render)
-- **Systems & Workflow:** Linux, Git/GitHub, Chrome Extensions (Manifest V3), Vite
+### 🕹️ [Spy Game Companion](https://spy-game-0pla.onrender.com/)
+A real-time multiplayer companion application with synchronized rooms for social deduction games.
+- **Architecture:** Node.js, Express, and Socket.io for low-latency session handling and distributed game state broadcasting  
+- **Links:** [Live App](https://spy-game-0pla.onrender.com/) • [Source Code](https://github.com/yvs1n/spygame)
 
 ---
 
-## 🔍 How I Build
-
-- **First-Principles Thinking:** Strip problems down to essential constraints before choosing patterns or writing code.
-- **Friction Elimination:** If manual tasks repeat, build an extension, script, or automated pipeline to handle them.
-- **Performance & Kinetic Feel:** Interfaces should feel tactile, responsive, and alive without sacrificing millisecond performance.
-- **AI as Cognitive Infrastructure:** Use LLMs and neural models for structured synthesis, semantic classification, and accelerating development velocity.
-
----
-
-## 🎯 Current Vectors
-
-- Deepening low-level computer systems and computer architecture at University of Sharjah.
-- Engineering autonomous agent systems and developer micro-tools.
-- Expanding open-source contributions and building high-utility software.
+### ⚡ Digital Strategy & Workflow Automation
+- **TikTok & Community Growth:** Scaled senior account to **500,000+ views**, 20k+ profile visits, 9,800+ likes, 3,700+ shares, and a single viral video exceeding **100k views**.
+- **Automated Birthday System:** Built automated tributes by extracting student records into a custom **Google Calendar integration**.
+- **Generative AI Restoration:** Pioneered early GenAI photo restoration and linearization workflows for 100+ graduating students.
+- **Freelance Projects on Fiverr:** Custom Chrome themes, profile artwork, and media projects ($150+ revenue).
 
 ---
 
-## 📫 Transmission & Contact
+## 👨‍🏫 Teaching Assistant & Academic Mentoring
 
-<div align="center">
+- **Pearson Edexcel Statistics 1 TA** (with Mr. Youssef Ahmed, Feb 2026 – Nov 2026)  
+  - Led problem-solving sessions breaking down multi-step exam questions on probability, discrete random variables, and normal distributions.  
+  - Evaluated student assessments, provided detailed methodological feedback, and moderated virtual Q&A sessions for 100+ students.
 
-  <a href="https://yassinr.me">
-    <img src="https://img.shields.io/badge/Portfolio-yassinr.me-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/yassinr">
-    <img src="https://img.shields.io/badge/LinkedIn-Yassin_Ragab-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:yassinragab2008@gmail.com">
-    <img src="https://img.shields.io/badge/Email-yassinragab2008%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://twitter.com/yassinrgb">
-    <img src="https://img.shields.io/badge/X-@yassinrgb-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
-  </a>
+- **Pearson Edexcel Physics AS-Level TA** (with Mr. Hussein Khaled, Feb 2026 – Jul 2026)  
+  - Promoted to AS-Level support, parent communication liaison, and primary academic mentor for Circular Motion, Fields, and Particle Physics.
 
-</div>
+- **Pearson Edexcel Physics IGCSE TA** (with Mr. Hussein Khaled, Sep 2025 – Feb 2026)  
+  - Supervised online assessments, ensured academic integrity, and managed student Q&A support.
 
-<br/>
+---
 
-- 🌐 **Portfolio & Case Studies:** [yassinr.me](https://yassinr.me)
-- 💼 **LinkedIn:** [linkedin.com/in/yassinr](https://linkedin.com/in/yassinr)
-- 📧 **Email:** [yassinragab2008@gmail.com](mailto:yassinragab2008@gmail.com)
-- 📄 **Curriculum Vitae:** [Download PDF](https://yassinr.me/cv.pdf)
-- 📸 **Instagram:** [@yassinrgb_](https://instagram.com/yassinrgb_)
+## 🏆 Honors, Leadership & Public Engagement
+
+- 🎤 **First International Forum for Arabic Students (Sharjah, 2025):**  
+  Presented review on stage in Arabic before H.E. Dr. Muhadditha Alhashimi (President of Sharjah Education Academy, Chair of SPEA), attended by H.H. Sheikh Dr. Sultan bin Muhammad Al Qasimi, Ruler of Sharjah.
+- 🏛️ **Student Leadership:**  
+  Head Boy (Dec 2025 – Jan 2026) and Deputy Head Boy (Sep 2025 – Jul 2026) at GEMS Westminster School RAK. Former Ruby House Captain (2024–2025) and Senior Prefect (2023–2024).
+- 🏆 **Competitions & Awards:**  
+  - Finalist — CodeX UAE National Web Creation Competition (2023)  
+  - Candidate for GEMS Awards (2022–2023)  
+  - Honorable Mention — Story Writing Competition, Emirates Literature Foundation (2025)  
+  - Spelling Bee Co-ordinator (2026) & Judge (2023)  
+  - Host — Sustainable Escape Room Project (2024)
+- 🏃 **Sports & Endurance Marathons:**  
+  Completed RAK 5k Marathon (2026), RAK MHSU Mini Marathon (2025), and Terry Fox Marathon in RAK (2025).
+
+---
+
+## 🧰 Tech Stack & Certifications
+
+*Pragmatic and tool-agnostic. I choose the stack depending on the project's performance requirements and real-world conditions.*
+
+- **Languages & Web:** HTML5, CSS3, JavaScript (ES6+), Socket.io, Node.js, Python  
+- **AI & Cloud Tools:** Gemini API, Cloud Firestore, Firebase, Serverless Deployments (Vercel, Cloudflare Pages, Render)  
+- **Media & Production:** Adobe Premiere Pro, Adobe Photoshop, Keyframe Animation, Animaker  
+- **Languages:** Bilingual (Arabic — Native, English — 7.5 IELTS)  
+- **Certifications:**  
+  - Google AI for Educators (Google Skillshop)  
+  - Microsoft Innovative Educator  
+  - Cloud Computing (Great Learning)  
+  - AI Tools for Infrastructure (Arab Academy for Innovators)  
+  - Metahack Coding by SmartKid  
+
+---
+
+## 🔍 How I Work
+
+- **Solve Real Friction:** Most projects start with manual work, repetitive tasks, or messy workflows and turn into structured, automated solutions.  
+- **First-Principles Understanding:** Understand the fundamentals (math, physics, data flow) before reaching for heavy frameworks.  
+- **Fast Iteration:** Build working prototypes rapidly, test with real users, and refine based on actual feedback.  
+- **Systems Over Clutter:** Eliminate unnecessary steps and keep codebases maintainable.  
+
+---
+
+## 📫 Contact & Links
+
+- 🌐 **Portfolio:** [yassinr.me](https://yassinr.me)  
+- 💼 **LinkedIn:** [linkedin.com/in/yassinr](https://linkedin.com/in/yassinr)  
+- 📧 **Email:** [yassinragab2008@gmail.com](mailto:yassinragab2008@gmail.com)  
+- 📱 **Mobile:** [+971 50 282 3907](tel:+971502823907)  
+- 📄 **Curriculum Vitae:** [Download PDF](https://yassinr.me/cv.pdf)  
+- 🐙 **GitHub:** [github.com/yvs1n](https://github.com/yvs1n)  
+- 📸 **Instagram:** [@yassinrgb_](https://instagram.com/yassinrgb_)  
