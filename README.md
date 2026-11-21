@@ -1,126 +1,104 @@
 <div align="center">
 
-  <!-- Clean Editorial Header -->
-  <img src="./header.svg" width="100%" alt="Yassin Mohamed Ragab" />
+  <!-- Portfolio-Matched Hero Header (Real ASCII Portrait + Flank Typography) -->
+  <a href="https://yassinr.is-a.dev/">
+    <img src="./header.svg" width="100%" alt="Yassin Ragab — Computer Engineering & Full-Stack Developer" />
+  </a>
 
   <br/><br/>
 
-  <!-- Verified Badges -->
+  <!-- Monochrome / Accent Badges matching yassinr.is-a.dev -->
   <a href="https://github.com/yvs1n">
-    <img src="https://komarev.com/ghpvc/?username=yvs1n&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=yvs1n&label=PROFILE%20VIEWS&color=222222&style=flat" alt="Profile Views" />
+  </a>
+  <a href="https://yassinr.is-a.dev/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-yassinr.is--a.dev-050505?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/yassinr">
+    <img src="https://img.shields.io/badge/LINKEDIN-yassinr-050505?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://yassinr.is-a.dev/cv.pdf">
+    <img src="https://img.shields.io/badge/CV-PDF-ff4500?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Download CV" />
   </a>
   <a href="https://github.com/yvs1n?tab=followers">
     <img src="https://img.shields.io/github/followers/yvs1n?label=Followers&style=social" alt="Followers" />
-  </a>
-  <a href="https://github.com/yvs1n?tab=repositories">
-    <img src="https://img.shields.io/github/stars/yvs1n?affiliations=OWNER%2CCOLLABORATOR&style=social" alt="Stars" />
-  </a>
-  <a href="https://yassinr.me">
-    <img src="https://img.shields.io/badge/Website-yassinr.me-1f2937?style=flat&logo=googlechrome&logoColor=white" alt="Website" />
-  </a>
-  <a href="https://linkedin.com/in/yassinr">
-    <img src="https://img.shields.io/badge/LinkedIn-yassinr-0077b5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://yassinr.me/cv.pdf">
-    <img src="https://img.shields.io/badge/CV-Download_PDF-ea4335?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Download CV" />
   </a>
 
 </div>
 
 ---
 
-### 👋 Hey, I’m Yassin
+### `00` / Profile
 
-I am a Computer Engineering freshman at the **University of Sharjah** and a full-stack developer.
+I’m **Yassin Mohamed Ragab**, a Computer Engineering student at the **University of Sharjah (`2026–2030`)**, Full-Stack Developer, and Aspiring AI Engineer.
 
-Most of what I build starts as a real-world friction point (manual workflows, scattered study resources, or repetitive tasks) and turns into clean, automated software products. I’m particularly drawn to full-stack web architectures, real-time WebSocket systems, and practical AI tooling.
+> *"I don't just write code. I build second brains."*
 
----
-
-## 🚀 Projects & Shipped Systems
-
-### 🧠 [Elementa](https://elementaa.vercel.app/)
-A full-stack educational platform built to bring clarity and structure to coursework with persistent progress tracking and walkthrough video engines.
-- Focus: modular revision architecture, client-side session caching, and responsive UI  
-- Stack: JavaScript (ES6+), Modern Vanilla CSS, Vercel  
-- Links: [Live Demo](https://elementaa.vercel.app/) • [Source Code](https://github.com/yvs1n/elementa)
+I engineer intelligent systems, spatial routing engines, and resilient full-stack web architectures that solve real-world friction on campus and beyond.
 
 ---
 
-### 📚 [British Curriculum 101 (BC101)](https://bc101.pages.dev/)
-An interactive academic resource hub for IGCSE & A-Level students, featuring an integrated in-browser study summarizer.
-- Built to eliminate the friction of hunting across fragmented exam board portals  
-- Built-in client-side summarizer engine to condense heavy syllabus sections during revision  
-- Scaled to thousands of visits across the UAE and GCC  
-- Links: [Live Hub](https://bc101.pages.dev/) • [Source Code](https://github.com/yvs1n/bc101)
+### `01` / Flagship Systems
+
+#### ◈ [NaviCampus](https://navicampus.app/) — *Climate-Aware & Accessible Campus Navigation Engine* (`2026`)
+Multi-tenant spatial mapping platform built for UAE university campuses under extreme desert heat and complex multi-floor layouts.
+- **"Coolest Route" Algorithm:** Climate-aware pathfinding through air-conditioned skywalks and shaded concourses
+- **"Step-Free Route" Accessibility Engine:** Strict barrier-free routing eliminating stairs and steep inclines
+- **Vector Topology Compiler:** In-browser spatial canvas editor compiling multi-floor plans into single-read graph bundles
+- **Zero-Latency Local Routing:** Instant client-side graph pathfinding computed with zero server overhead
+- **Stack:** `TypeScript` · `Vite` · `Leaflet / Canvas` · `Firestore` · `Firebase Storage` · `Cloudflare Pages`
+- **Links:** [Launch Platform](https://navicampus.app/) · [Open Web App](https://navicampus.app/app)
+
+<br/>
+
+#### ◈ [Blackboarder](https://blackboarder.pages.dev/) — *Bilingual LMS Extension & Academic Companion* (`2026`)
+Bilingual (Arabic + English) Manifest V3 Chrome extension and offline-first companion PWA for Blackboard Learn Ultra.
+- **Bilingual NLP Parser:** Local parser extracting buried exam deadlines and room changes from Arabic & English colloquial announcements (e.g., `"الأحد بعد القادم"`) with optional hybrid AI
+- **Automated Gradebook & GPA Engine:** Pulls official marks, matches syllabus weights, and projects cumulative GPA on the UOS 4.0 scale
+- **Zero-Knowledge Multi-Device Sync:** Private 10-character cryptographic sync keys without accounts + server-side encrypted AI key locker
+- **Live Calendar & Push:** Live `.ics` / WebCal feeds for Apple, Google, and Outlook + Web Push notifications
+- **Stack:** `Chrome MV3` · `TypeScript` · `Cloudflare Pages Worker` · `Firebase RTDB` · `PWA` · `Vitest (528 tests)`
+- **Links:** [Official Site](https://blackboarder.pages.dev/) · [GitHub Extension](https://github.com/yvs1n/blackboarder-extension) · [Companion App](https://blackboarder.pages.dev/companion/)
 
 ---
 
-### 🌐 [TranZ — CodeX UAE](https://tranz.pages.dev/)
-Finalist platform in the CodeX UAE national school-level web creation competition, built around high-contrast kinetic layout principles and responsive web standards.
-- Recognition: National competition finalist  
-- Links: [Live Demo](https://tranz.pages.dev/) • [Source Code](https://github.com/yvs1n/tranz)
+### `02` / Engineered Platforms
+
+| Year | Project | Description | Links |
+| :--- | :--- | :--- | :--- |
+| `2026` | **Elementa** | Full-stack educational science platform with real-time progress tracking & video walkthroughs | [Live](https://elementaa.vercel.app/) · [GitHub](https://github.com/yvs1n/elementa) |
+| `2026` | **British Curriculum 101** | Interactive academic resource hub featuring an integrated page summarizer | [Live](https://bc101.pages.dev/) · [GitHub](https://github.com/yvs1n/bc101) |
+| `2026` | **Spy Game Companion** | Real-time multiplayer mobile web app with persistent Socket.io session handling | [Live](https://spy-game-0pla.onrender.com/) · [GitHub](https://github.com/yvs1n/spygame) |
+| `2024` | **FundFair** | Interactive digital finance and community fundraising ecosystem | [Live](https://fundfair.pages.dev/) |
+| `2023` | **TranZ · CodeX UAE** | National school-level web creation competition finalist platform | [Live](https://tranz.pages.dev/) · [GitHub](https://github.com/yvs1n/tranz) |
+| `2023` | **SSFIM Platform** | Space settlement framework presented to Ranju Anand, SVP of Education at GEMS | [Live](https://ssfim.pages.dev/) |
 
 ---
 
-### 🕹️ [Spy Game Companion](https://spy-game-0pla.onrender.com/)
-A real-time mobile web companion app for social deduction games, built around zero-latency synchronized rooms.
-- Architecture: Node.js, Express, and Socket.io for persistent room matchmaking and distributed game state broadcasting  
-- Links: [Live App](https://spy-game-0pla.onrender.com/) • [Source Code](https://github.com/yvs1n/spygame)
+### `03` / Capabilities & Stack
+
+- **Languages:** `TypeScript` · `JavaScript (ES6+)` · `Python` · `HTML5` · `CSS3`
+- **Frontend & Graphics:** `WebGL` · `Three.js` · `Canvas 2D` · `Leaflet` · `GSAP`
+- **Cloud & Infrastructure:** `Cloudflare Pages & Workers` · `Firebase (Firestore, Storage, RTDB)` · `Node.js` · `Socket.io` · `Vite` · `Vitest`
+- **AI & NLP:** Client-side NLP pipelines · `Gemini API` · Generative AI workflows · Hybrid inference systems
 
 ---
 
-### ⚡ Developer Tooling & Automation
-- **LMS Workflow Tooling ([Blackboarder](https://github.com/yvs1n/blackboarder-extension)):** Chrome extension and batch download scripts to bypass repetitive clicks and organize course files.  
-- **Calendar & Data Automation:** Automated student schedule and milestone triggers via a custom Google Calendar pipeline.  
-- **GenAI Workflows:** Engineered batch image restoration and linearization pipelines.  
-- **Freelance Tooling:** Custom Google Chrome themes and web styling projects on Fiverr ($150+ revenue).
+### `04` / STEM & Technical Foundation
+
+- **University of Sharjah (`2026–2030`):** B.Sc. Computer Engineering, College of Computing & Informatics
+- **Academic Honors:** `A*` in A-Level Mathematics · `8 A*/A` IGCSE Honors (Math, Physics, Chemistry, ICT) · Pearson Edexcel High Achiever
+- **Pearson Edexcel Teaching Assistant:** Mentored `1,000+` students across A-Level Statistics 1 (probability, discrete random variables, normal distribution) & AS/IGCSE Physics
+- **Impact Metrics:** `15+` deployed web & AI architectures · `500,000+` digital reach (including GenAI photo restoration & Google Calendar automation workflows)
+- **Certifications:** Google AI for Educators · Microsoft Innovative Educator · Cloud Computing (Great Learning) · AI Tools for Infrastructure (Arab Academy) · Metahack Coding
 
 ---
 
-## 🧠 Technical & STEM Highlights
+### `05` / Transmission & Contact
 
-- 🏆 **Finalist — CodeX UAE** National Web Creation Competition (2023)  
-- 📐 **Academic Foundation:** A* in A-Level Mathematics • 8 A*/A in IGCSEs (Math, Physics, Chemistry, ICT)  
-- 👨‍🏫 **Pearson Edexcel Teaching Assistant:** Statistics 1 (probability, discrete random variables, distributions) & Physics AS/IGCSE  
-- 📜 **Technical Certifications:** Google AI for Educators, Microsoft Innovative Educator, Cloud Computing (Great Learning), AI Tools for Infrastructure (Arab Academy)  
-- 💻 **Metahack Coding** — Participant  
-
----
-
-## 🧰 Tech Stack
-*Pragmatic, not ideological. I choose a tech stack depending on performance, requirements, and system conditions.*
-
-- **Languages:** JavaScript (ES6+), TypeScript, Python, HTML5, Modern CSS3  
-- **Frontend & UI:** Responsive Web, DOM APIs, Canvas / WebGL experimentation, Tailwind CSS  
-- **Backend & Real-Time:** Node.js, Express, Socket.io (WebSockets), REST APIs  
-- **Cloud & AI:** Gemini API, Cloud Firestore, Firebase, Serverless (Vercel, Cloudflare Pages, Render)  
-- **Tooling:** Git, Linux, Chrome Extensions (Manifest V3), Vite  
-
----
-
-## 🔍 How I Work
-
-- **Solve Real Friction:** Systems over repetitive tasks — if something has manual friction, write a script or build a tool to solve it.  
-- **First-Principles Understanding:** Strong grasp of core math, data flow, and networking before reaching for heavy abstractions.  
-- **Fast Iteration:** Build working prototypes rapidly, deploy to production, and iterate based on real usage.  
-- **Pragmatic & Lightweight:** Keep architectures maintainable, fast, and dependency-light.  
-
----
-
-## 🎯 Direction
-
-- Deepen Computer Engineering foundations (systems programming, hardware-software boundary, distributed architectures).  
-- Build and ship developer utilities, browser tools, and micro-SaaS products.  
-- Use AI as a core development and productivity layer.  
-- Continue contributing to open-source software and shipping tools that people actually use.  
-
----
-
-## 📫 Contact
-
-- 🌐 Website: [yassinr.me](https://yassinr.me)  
-- 💼 LinkedIn: [linkedin.com/in/yassinr](https://linkedin.com/in/yassinr)  
-- 📧 Email: [yassinragab2008@gmail.com](mailto:yassinragab2008@gmail.com)  
-- 📄 Resume / CV: [Download PDF](https://yassinr.me/cv.pdf)  
-- 🐙 GitHub: [github.com/yvs1n](https://github.com/yvs1n)  
+- **Interactive Portfolio & Digital Twin:** [yassinr.is-a.dev](https://yassinr.is-a.dev/)
+- **Personal Email:** [yassinraggab@gmail.com](mailto:yassinraggab@gmail.com)
+- **Work Email:** [yassin@navicampus.app](mailto:yassin@navicampus.app)
+- **LinkedIn:** [linkedin.com/in/yassinr](https://linkedin.com/in/yassinr)
+- **Curriculum Vitae (PDF):** [yassinr.is-a.dev/cv.pdf](https://yassinr.is-a.dev/cv.pdf)
+- **GitHub:** [github.com/yvs1n](https://github.com/yvs1n)
