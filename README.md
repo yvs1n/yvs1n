@@ -1,23 +1,23 @@
 <div align="center">
 
   <!-- Portfolio-Matched Hero Header (Real ASCII Portrait + Flank Typography) -->
-  <a href="https://yassinr.is-a.dev/">
+  <a href="https://yassinr.me/">
     <img src="./header.svg" width="100%" alt="Yassin Ragab — Computer Engineering & Full-Stack Developer" />
   </a>
 
   <br/><br/>
 
-  <!-- Monochrome / Accent Badges matching yassinr.is-a.dev -->
+  <!-- Monochrome / Accent Badges matching yassinr.me -->
   <a href="https://github.com/yvs1n">
     <img src="https://komarev.com/ghpvc/?username=yvs1n&label=PROFILE%20VIEWS&color=222222&style=flat" alt="Profile Views" />
   </a>
-  <a href="https://yassinr.is-a.dev/">
-    <img src="https://img.shields.io/badge/PORTFOLIO-yassinr.is--a.dev-050505?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  <a href="https://yassinr.me/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-yassinr.me-050505?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://linkedin.com/in/yassinr">
     <img src="https://img.shields.io/badge/LINKEDIN-yassinr-050505?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://yassinr.is-a.dev/cv.pdf">
+  <a href="https://yassinr.me/cv.pdf">
     <img src="https://img.shields.io/badge/CV-PDF-ff4500?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Download CV" />
   </a>
   <a href="https://github.com/yvs1n?tab=followers">
@@ -96,9 +96,9 @@ Bilingual (Arabic + English) Manifest V3 Chrome extension and offline-first comp
 
 ### `05` / Transmission & Contact
 
-- **Interactive Portfolio & Digital Twin:** [yassinr.is-a.dev](https://yassinr.is-a.dev/)
+- **Interactive Portfolio & Digital Twin:** [yassinr.me](https://yassinr.me/)
 - **Personal Email:** [yassinraggab@gmail.com](mailto:yassinraggab@gmail.com)
 - **Work Email:** [yassin@navicampus.app](mailto:yassin@navicampus.app)
 - **LinkedIn:** [linkedin.com/in/yassinr](https://linkedin.com/in/yassinr)
-- **Curriculum Vitae (PDF):** [yassinr.is-a.dev/cv.pdf](https://yassinr.is-a.dev/cv.pdf)
+- **Curriculum Vitae (PDF):** [yassinr.me/cv.pdf](https://yassinr.me/cv.pdf)
 - **GitHub:** [github.com/yvs1n](https://github.com/yvs1n)
